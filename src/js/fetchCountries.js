@@ -5,7 +5,6 @@ export default function fetchCountries(searchQuery) {
     .then(res => res.json())
     .then(next => {
       renderCountryInfo(next);
-      console.log(next);
     })
-    .catch(err => console.log(error));
+    .catch(err => console.error(err));
 }

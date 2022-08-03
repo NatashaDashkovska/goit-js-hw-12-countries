@@ -1,7 +1,7 @@
 {
   "name": "goit-js-hw-12-countries",
   "version": "1.0.0",
-  "description": "",
+  "main": "index.js",
   "homepage": "https://natashadashkovska.github.io/goit-js-hw-12-countries",
   "scripts": {
     "start": "parcel src/*.html",
@@ -33,6 +33,5 @@
     "postcss": "^8.4.14",
     "posthtml-include": "^1.7.4"
   },
-  "browserslist": "> 0.5%, last 2 versions, not dead",
-  "main": "index.js"
+  "browserslist": "> 0.5%, last 2 versions, not dead"
 }

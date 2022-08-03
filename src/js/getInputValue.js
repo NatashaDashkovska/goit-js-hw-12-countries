@@ -1,10 +1,10 @@
 import debounce from 'lodash.debounce';
-
+import fetchCountries from './fetchCountries';
 const inputRef = document.querySelector('.input');
 
 inputRef.addEventListener(
   'input',
   debounce(event => {
-    console.log(event.target);
+    fetchCountries(event.target.value);
   }, 500)
 );
